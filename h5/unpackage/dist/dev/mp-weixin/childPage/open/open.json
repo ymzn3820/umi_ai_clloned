@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "最近打开",
+  "navigationBarBackgroundColor": "#fff",
+  "navigationBarTextStyle": "black",
+  "usingComponents": {
+    "u-icon": "/uni_modules/uview-ui/components/u-icon/u-icon"
+  }
+}

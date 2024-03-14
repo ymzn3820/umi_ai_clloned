@@ -1,0 +1,207 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+
+		{
+			"path": "pages/index/index",
+			"style": {
+				// "navigationBarTitleText": "首页",
+				// "navigationBarBackgroundColor": "#E5EDF9",
+				// "navigationBarTextStyle": "black"
+				"navigationStyle": "custom",
+				"onReachBottomDistance": 50
+			}
+		},
+		{
+			"path": "pages/login/login",
+			"style": {
+				// "navigationBarTitleText": "登录",
+				// "navigationBarBackgroundColor": "#fff",
+				// "navigationBarTextStyle": "black",
+				"navigationStyle": "custom"
+			}
+
+		},
+		
+		{
+			"path": "pages/user/user",
+			"style": {
+				// "navigationBarTitleText": "我的",
+				// "navigationBarBackgroundColor": "#1296db",
+				// "navigationBarTextStyle": "white"
+				"navigationStyle": "custom"
+			}
+		},
+
+		{
+			"path": "pages/user/set/set",
+			"style": {
+				// "navigationBarTitleText": "设置",
+				// "navigationBarBackgroundColor": "#fff",
+				// "navigationBarTextStyle": "black"
+				"navigationStyle": "custom"
+			}
+		},
+
+		{
+			"path": "pages/agree/agree",
+			"style": {
+				// "navigationBarTitleText": "",
+				// "enablePullDownRefresh": false
+				"navigationStyle": "custom"
+			}
+
+		},
+		{
+			"path": "pages/user/info/info",
+			"style": {
+				"navigationBarTitleText": "个人信息",
+				"navigationBarBackgroundColor": "#fff",
+				"navigationBarTextStyle": "black"
+			}
+
+		}
+	],
+	"subPackages": [
+		{
+			"root": "childCont",
+			"pages": [
+				// 留言板页面
+				{
+					"path": "digital/message_digital",
+					"style": {
+						"navigationBarTitleText": "留言板",
+						"navigationBarBackgroundColor": "#fff",
+						"navigationBarTextStyle": "black"
+					}
+				
+				},
+				// 我的数字分身页面
+				{
+					"path": "digital/my",
+					"style": {
+						"navigationBarTitleText": "我的分身",
+						"navigationBarBackgroundColor": "#fff",
+						"navigationBarTextStyle": "black"
+					}
+				
+				},
+				// 数字分身对话
+				{
+					"path": "digital/chat",
+					"style": {
+						// "navigationBarTitleText": "对话",
+						// "navigationBarBackgroundColor": "#fff",
+						// "navigationBarTextStyle": "black"
+						"navigationStyle": "custom"
+					}
+				
+				},
+				// 编辑数字分身
+				{
+					"path": "digital/edit_digital",
+					"style": {
+						"navigationBarTitleText": "编辑分身",
+						"navigationBarBackgroundColor": "#fff",
+						"navigationBarTextStyle": "black"
+					}
+				
+				},
+				// 创建数字分身
+				{
+					"path": "digital/created_digital",
+					"style": {
+						"navigationBarTitleText": "数字分身",
+						"navigationBarBackgroundColor": "#fff",
+						"navigationBarTextStyle": "black"
+					}
+				
+				},
+				//数字分身历史记录
+				{
+					"path": "digital/history_digital",
+					"style": {
+						"navigationBarTitleText": "记录",
+						"navigationBarBackgroundColor": "#fff",
+						"navigationBarTextStyle": "black"
+					}
+				
+				},
+				//配置形象
+				{
+					"path": "digital/configuration_image",
+					"style": {
+						"navigationBarTitleText": "配置形象",
+						"navigationBarBackgroundColor": "#fff",
+						"navigationBarTextStyle": "black"
+					}
+				
+				},
+				// 数字分身状态
+				{
+					"path": "digital/status_digital",
+					"style": {
+						"navigationBarTitleText": "创建完成",
+						"navigationBarBackgroundColor": "#fff",
+						"navigationBarTextStyle": "black"
+					}
+				},
+				// 分享数字分身
+				{
+					"path": "digital/share_digital",
+					"style": {
+						"navigationBarTitleText": "数字分身",
+						"navigationBarBackgroundColor": "#fff",
+						"navigationBarTextStyle": "black"
+					}
+				
+				},
+				
+				{
+					"path" : "realName/realName",
+					"style" : 
+					{
+						// "navigationBarTitleText" : "实名认证",
+						// "enablePullDownRefresh" : false,
+						"navigationStyle": "custom"
+					}
+				},
+				{
+					"path" : "realName/backMini",
+					"style" : 
+					{
+						// "navigationBarTitleText" : "返回小程序",
+						// "enablePullDownRefresh" : false,
+						"navigationStyle": "custom"
+					}
+				}
+			]
+		}
+	],
+
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "无忧秘书AI",
+		"navigationBarBackgroundColor": "#F6F8Fb",
+		"backgroundColor": "#F6F8Fb"
+	},
+	"tabBar": {
+		"color": "#131D34",
+		"selectedColor": "#1F64FF",
+		"backgroundColor": "#fff",
+		"borderStyle": "black",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"text": "数字分身",
+				"iconPath": "static/nav/duihua1.png",
+				"selectedIconPath": "static/nav/duihua.png"
+			},
+			{
+				"pagePath": "pages/user/user",
+				"text": "我的",
+				"iconPath": "static/nav/user1.png",
+				"selectedIconPath": "static/nav/user.png"
+			}
+		]
+	},
+	"uniIdRouter": {}
+}

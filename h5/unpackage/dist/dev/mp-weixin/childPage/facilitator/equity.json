@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "查看权益",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "ua-markdown": "/components/ua2-markdown/ua-markdown"
+  }
+}

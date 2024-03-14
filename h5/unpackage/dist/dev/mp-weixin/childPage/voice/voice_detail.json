@@ -1,0 +1,6 @@
+{
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "gw-audiott": "/childPage/components/gw-audiott/gw-audiott"
+  }
+}

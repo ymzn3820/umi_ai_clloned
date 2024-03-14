@@ -1,0 +1,7 @@
+{
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "u-modal": "/uni_modules/uview-ui/components/u-modal/u-modal",
+    "u-input": "/uni_modules/uview-ui/components/u-input/u-input"
+  }
+}

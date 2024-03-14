@@ -1,0 +1,7 @@
+{
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "audio": "/childCont/components/audio/audio",
+    "ssdownload": "/childCont/components/ss-download/ss-download"
+  }
+}

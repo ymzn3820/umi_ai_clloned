@@ -1,0 +1,6 @@
+{
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "u-search": "/uni_modules/uview-ui/components/u-search/u-search"
+  }
+}

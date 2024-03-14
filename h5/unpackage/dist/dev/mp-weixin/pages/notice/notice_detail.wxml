@@ -1,0 +1,1 @@
+<view style="padding-top:30rpx;" class="data-v-470b6fcc"><view class="cont data-v-470b6fcc"><rich-text nodes="{{messageInfo.content}}" class="data-v-470b6fcc"></rich-text></view></view>

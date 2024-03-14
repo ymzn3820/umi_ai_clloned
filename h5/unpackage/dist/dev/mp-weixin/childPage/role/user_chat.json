@@ -1,0 +1,12 @@
+{
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "u-badge": "/uni_modules/uview-ui/components/u-badge/u-badge",
+    "u-row": "/uni_modules/uview-ui/components/u-row/u-row",
+    "u-col": "/uni_modules/uview-ui/components/u-col/u-col",
+    "u-button": "/uni_modules/uview-ui/components/u-button/u-button",
+    "u--textarea": "/uni_modules/uview-ui/components/u--textarea/u--textarea",
+    "u-modal": "/uni_modules/uview-ui/components/u-modal/u-modal",
+    "ua-markdown": "/components/ua2-markdown/ua-markdown"
+  }
+}

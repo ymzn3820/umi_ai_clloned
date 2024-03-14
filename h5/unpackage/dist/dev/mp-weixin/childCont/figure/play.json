@@ -1,0 +1,6 @@
+{
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "ssdownload": "/childCont/components/ss-download/ss-download"
+  }
+}

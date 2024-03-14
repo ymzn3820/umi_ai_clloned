@@ -1,0 +1,1 @@
+<view style="height:100vh;background:#fff;padding-top:54%;" class="data-v-68cc2a4c"><view class="ex_time data-v-68cc2a4c"><image class="upload_img data-v-68cc2a4c" src="/static/user/upload.png" mode="aspectFit" data-event-opts="{{[['tap',[['toSlove',['$event']]]]]}}" bindtap="__e"></image><view class="upload_text data-v-68cc2a4c">上传参考图</view></view></view>
