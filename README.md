@@ -19,6 +19,8 @@
 | Chat模块  | [umi_platform_chat_module](https://github.com/ymzn3820/umi_platform_chat_module) | Chat模块代码仓库地址 |
 | Bill模块  | [umi_platform_bill_module](https://github.com/ymzn3820/umi_platform_bill_module) | Bill模块代码仓库地址 |
 
+##  联系我们
+![联系我们](https://umi-intelligence.oss-cn-shenzhen.aliyuncs.com/static/com/message_center/1705734163826.jpg)
 
 
 ## License
